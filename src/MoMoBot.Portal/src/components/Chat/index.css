@@ -1,0 +1,305 @@
+a,
+a:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: #383838;
+}
+.chatlist {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-right: 1px solid #ececec;
+}
+.chatlist .item {
+  padding: 15px;
+  border: 1px solid #ececec;
+  border-left: 3px solid transparent;
+  box-sizing: border-box;
+  border-right: 0px;
+  position: relative;
+  margin-bottom: -1px;
+}
+.chatlist .item .header {
+  margin-bottom: 8px;
+}
+.chatlist .item .header .itemtitle {
+  font-size: 14px;
+  font-weight: bold;
+}
+.chatlist .item .header .itemtime {
+  color: #969696;
+  float: right;
+  font-size: 12px;
+}
+.chatlist .item .body {
+  display: grid;
+  grid-template-columns: auto 25px;
+}
+.chatlist .item .body .content {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin: 0px;
+  font-size: .78rem;
+  line-height: 25px;
+}
+.chatlist .item .body .status {
+  display: block;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+}
+.chatlist .item .body .status span {
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+.chatlist .item .body .status span.online {
+  background: #4EA9EC;
+}
+.chatlist .item .body .status span.offline {
+  background: #ababab;
+}
+.chatlist .item.active {
+  border-left-color: #4EA9EC;
+  background-color: #ddeffb;
+}
+.chatlist .item.active .header .itemtitle {
+  color: #4EA9EC;
+}
+.chatlist .item.active .header .itemtime {
+  font-weight: bold;
+  color: #5a5a5a;
+}
+.chatlist .item.unread::after {
+  height: 0px;
+  width: 0px;
+  content: '';
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  display: block;
+  border-width: 5px;
+  border-color: #4EA9EC #4EA9EC transparent transparent;
+  border-style: solid;
+}
+.chatlist .empty {
+  color: #afafaf;
+  text-align: center;
+}
+.chatlist::-webkit-scrollbar {
+  display: none;
+}
+.chatcontent {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.chatcontent .header {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: auto 50px;
+  padding: 0px 15px;
+  line-height: 55px;
+  border-bottom: 1px solid #ececec;
+}
+.chatcontent .header .name {
+  font-size: 16px;
+  font-weight: bold;
+}
+.chatcontent .header .name .onlinestatus {
+  font-weight: normal;
+  margin-left: 8px;
+}
+.chatcontent .header .name .onlinestatus.online {
+  color: #4EA9EC;
+}
+.chatcontent .header .name .onlinestatus.offline {
+  color: #ff5555;
+}
+.chatcontent .header div {
+  text-align: center;
+}
+.chatcontent .header div .close {
+  cursor: pointer;
+  border: none;
+  height: 30px;
+  vertical-align: middle;
+  line-height: 30px;
+  width: 30px;
+  background: transparent;
+  transition: color ease-out 0.3s;
+}
+.chatcontent .header div .close:hover {
+  color: #ff5555;
+}
+.chatcontent .header div .close:focus {
+  outline: none;
+}
+.chatcontent .chatbox {
+  position: relative;
+  height: 100%;
+  padding-top: 55px;
+  padding-bottom: 200px;
+}
+.chatcontent .chatbox .messages {
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0px 15px;
+  padding-top: 15px;
+}
+.chatcontent .chatbox .messages .message {
+  margin-bottom: 10px;
+}
+.chatcontent .chatbox .messages .message .body {
+  max-width: 80%;
+  padding: 15px;
+  border-radius: 3px;
+  display: inline-block;
+}
+.chatcontent .chatbox .messages .message .footer {
+  font-size: 12px;
+  margin: 0px;
+}
+.chatcontent .chatbox .messages .message.self {
+  text-align: right;
+}
+.chatcontent .chatbox .messages .other .body {
+  background: #ececec;
+}
+.chatcontent .chatbox .messages .self .body {
+  background: #ddeffb;
+  text-align: left;
+}
+.chatcontent .chatbox .messages .notice {
+  text-align: center;
+}
+.chatcontent .chatbox .messages .notice .body {
+  line-height: 25px;
+  font-size: 10px;
+  background: #eaeaea;
+  border-radius: 13px;
+  padding: 0px 10px;
+  color: #969696;
+}
+.chatcontent .chatbox .messages .image img {
+  width: 100%;
+}
+.chatcontent .chatbox .messages::-webkit-scrollbar {
+  display: none;
+}
+.chatcontent .chatbox .inputarea {
+  height: 200px;
+  padding: 15px;
+}
+.chatcontent .chatbox .inputarea .inputbox {
+  border: 1px solid #ececec;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3);
+  height: 100%;
+  padding-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+}
+.chatcontent .chatbox .inputarea .inputbox .textarea {
+  min-height: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  padding: 5px;
+  line-height: 25px;
+  border: none;
+}
+.chatcontent .chatbox .inputarea .inputbox .textarea:focus {
+  outline: none;
+}
+.chatcontent .chatbox .inputarea .inputbox .textarea:disabled {
+  background: #f7f7f7;
+  cursor: not-allowed;
+}
+.chatcontent .chatbox .inputarea .inputbox .footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+  vertical-align: middle;
+}
+.chatcontent .chatbox .inputarea .inputbox .footer .footMenu {
+  position: absolute;
+  height: 40px;
+  top: 0px;
+  left: 5px;
+}
+.chatcontent .chatbox .inputarea .inputbox .footer .footMenu li {
+  cursor: pointer;
+  margin-right: 3px;
+  line-height: 40px;
+  float: left;
+  padding: 0px 5px;
+  font-size: 16px;
+  color: #8e8e8e;
+  transition: color ease-out 0.3s;
+}
+.chatcontent .chatbox .inputarea .inputbox .footer .footMenu li:hover {
+  color: #4EA9EC;
+}
+.chatcontent .chatbox .inputarea .inputbox .footer .send {
+  opacity: 1;
+  border: none;
+  background: #4EA9EC;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 0px 25px;
+  line-height: 30px;
+  margin-top: 5px;
+  margin-right: 5px;
+  float: right;
+}
+.chatcontent .chatbox .inputarea .inputbox .footer .send:focus {
+  outline: none;
+}
+.chatcontent .chatbox .inputarea .inputbox .footer .send:disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+.chatcontent .empty {
+  color: #afafaf;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: Center;
+}
+.quickreplylist {
+  max-height: 180px;
+  overflow-y: auto;
+}
+.quickreplylist .quickreplyitem p {
+  cursor: pointer;
+  margin: 0px;
+  line-height: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 180px;
+  margin-bottom: 5px;
+  color: #8a8a8a;
+  transition: color ease-out 0.3s;
+}
+.quickreplylist .quickreplyitem p:hover {
+  color: #4EA9EC;
+}
+.disabled {
+  color: #ababab !important;
+  opacity: .6;
+  cursor: not-allowed !important;
+}
+.disabled:hover {
+  color: #ababab !important;
+}

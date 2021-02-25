@@ -1,0 +1,9 @@
+.container {
+  position: relative;
+  min-height: '380px';
+  height: 100%;
+}
+.container .buttongroup {
+  position: absolute;
+  right: 15px;
+}

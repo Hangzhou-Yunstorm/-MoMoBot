@@ -1,0 +1,12 @@
+.operations {
+  margin-bottom: 20px;
+}
+.operations .external {
+  margin-left: 15px;
+  display: inline;
+}
+.operations .external .tip {
+  font-size: 12px;
+  margin-left: 5px;
+  color: #b9b9b9;
+}

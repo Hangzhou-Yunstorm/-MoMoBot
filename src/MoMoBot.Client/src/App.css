@@ -1,0 +1,248 @@
+ul, li {
+    list-style: none
+}
+
+#messages {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Chrome/Safari/Opera */
+    -khtml-user-select: none;
+    /* Konqueror */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+
+    not supported by any browser */
+}
+
+.list {
+    margin: 0px;
+    padding: 0px;
+}
+
+.list .item {
+    margin: 0px;
+    margin-bottom: 2px;
+    padding: 5px 10px;
+    background: rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.list .item span {
+    font-size: 10px;
+    padding-left: 3px;
+    color: #3698b7;
+    font-style: normal;
+}
+
+/*项目信息列表样式*/
+
+.table {
+    border-collapse: collapse;
+    margin: 0px;
+}
+
+.table td {
+    border-top: none;
+}
+
+.table tbody tr td {
+    font-size: 13px;
+    border: 1px black solid;
+    line-height: 20px;
+    min-width: 60px;
+    padding: 8px 5px;
+    font-size: 12px;
+}
+
+.table tbody tr td:nth-child(1) {
+    background-color: #d5d8da;
+}
+
+.table thead td {
+    font-size: 12px;
+    padding: 8px 0px;
+}
+
+.table tfoot td {
+    font-size: 12px;
+    padding: 8px 0px;
+}
+
+.table button {
+    border: none;
+    background: transparent;
+    color: #3698b7;
+    padding: 0px;
+}
+
+.blue-text {
+    color: #3698b7;
+    font-size: 12px;
+}
+
+.feedback-container {
+    position: absolute;
+    top: 0px;
+    left: -100vw;
+    height: 100vh;
+    width: 100vw;
+    background: #ffffff;
+    transition: all ease .3s;
+    padding: 20px 30px;
+}
+
+.exitQuery {
+    color: #e00707 !important;
+}
+
+.table button:focus {
+    outline: none;
+}
+
+.calling-container {}
+
+.calling-container button {
+    height: 26px;
+    width: 50px;
+    border-radius: 13px;
+    border: none;
+    background: #d65050;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hang-up {
+    position: fixed;
+    bottom: 60px;
+    height: 26px;
+    width: 80px;
+    left: 50%;
+    margin-left: -40px;
+    text-align: center;
+    background: #ec5454;
+    color: #fff;
+    line-height: 26px;
+    border-radius: 13px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, .3);
+}
+
+.evaluation {
+    /* font-size: 12px; */
+}
+
+.evaluation-row {
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.evaluation-row textarea {
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 80px;
+    max-height: 80px;
+    line-height: 20px;
+    padding: 3px;
+}
+
+.evaluation-row p {
+    margin: 0px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.yc-primary-btn {
+    border: none;
+    padding: 5px 15px;
+    color: #fff;
+    background: #1195ca;
+}
+
+.yc-danger-btn {
+    border: none;
+    padding: 5px 15px;
+    color: #fff;
+    background: #ea4848;
+}
+
+.feedback-row {
+    margin-bottom: 20px;
+}
+
+.feedback-row input, .feedback-row textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+.feedback-row button:last-child {
+    margin-left: 15px;
+}
+
+.app-result td:first {
+    min-width: 60px;
+}
+.translate{
+    padding: 10px;
+    position: absolute;
+    top: 0px;
+    left: -100vw;
+    height: 100vh;
+    width: 100vw;
+    background: #ffffff;
+    transition: all ease .3s;
+}
+.translate textarea{
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    min-height: 150px;
+    padding: 5px;
+    line-height: 25px;
+}
+
+.translate-selects {
+    display: grid;
+    grid-template-columns: calc(50% - 25px) 50px calc(50% - 25px);
+    max-width: 560px;
+    width: 100%;
+    height: 29px;
+}
+.lang-icon{
+    margin: 0px auto;
+    height: 100%;
+}
+.lang-select {
+    padding: 3px;
+}
+
+.text-second{
+    color: #bfbfbf;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.translate-header{
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: 22px auto;
+}
+
+.translate-header h1{
+    text-align: center;
+    margin: 0px;
+    font-size: 18px;
+    line-height: 35px;
+}

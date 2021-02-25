@@ -1,0 +1,8 @@
+.logout {
+  text-align: center;
+  padding: 50px;
+}
+.logout .loading {
+  margin-bottom: 20px;
+  font-size: 35px;
+}

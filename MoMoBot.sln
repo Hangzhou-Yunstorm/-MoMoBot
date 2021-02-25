@@ -1,0 +1,204 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28407.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoMoBot.Api", "src\MoMoBot.Api\MoMoBot.Api.csproj", "{AC24B4D2-B486-463C-930F-77950AE2DDF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoMoBot.Infrastructure", "src\MoMoBot.Infrastructure\MoMoBot.Infrastructure.csproj", "{FE22588B-1232-43E0-BDA8-300C5A86326D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoMoBot.Service", "src\MoMoBot.Service\MoMoBot.Service.csproj", "{28FDBEAA-AFDE-4384-A6A3-CDAD6F9889FB}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MoMoBot.Client", "src\MoMoBot.Client", "{0CF69BDC-A19C-4DAC-BECF-2ECBE8DB0004}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_9568"
+		Debug.AspNetCompiler.PhysicalPath = "MoMoBot.Client\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9568\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_9568"
+		Release.AspNetCompiler.PhysicalPath = "MoMoBot.Client\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9568\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "9568"
+		SlnRelativePath = "MoMoBot.Client\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution items", "solution items", "{1F4465AB-F18D-489A-8463-361E22D955FA}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
+		run-docker-compose-build.ps1 = run-docker-compose-build.ps1
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MoMoBot.Portal", "src\MoMoBot.Portal", "{8B8F53C7-29A3-4394-9217-2CE9C4E6C258}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_2919"
+		Debug.AspNetCompiler.PhysicalPath = "MoMoBot.Portal\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2919\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_2919"
+		Release.AspNetCompiler.PhysicalPath = "MoMoBot.Portal\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_2919\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "2919"
+		SlnRelativePath = "MoMoBot.Portal\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Clients", "03-Clients", "{07719E6F-E9C1-429B-9A46-74F2ED087A2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-APIs", "01-APIs", "{7FDB1585-F133-4287-80F8-DB4682357236}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Libraries", "02-Libraries", "{BC12265C-785B-4741-B131-16F9E2391054}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoMoBot.Core", "src\MoMoBot.Core\MoMoBot.Core.csproj", "{35C095F1-BAAC-437C-B608-C6CFD2E5BA8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-ML", "04-ML", "{2DB63A69-97A3-4364-A872-A523BA71E83E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoMoBot.ML", "src\MoMoBot.ML\MoMoBot.ML.csproj", "{BDD11526-972F-4540-AC0A-6F816F89EC8A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MoMoBot.ML.Tests", "tests\MoMoBot.ML.Tests\MoMoBot.ML.Tests.csproj", "{13D086A3-8FE0-49EC-AD65-12FAE1F29389}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-ElasticSearch", "05-ElasticSearch", "{F61AD43D-8ECA-443D-810B-2C6B19E09299}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoMoBot.ElasticSearch", "src\MoMoBot.ElasticSearch\MoMoBot.ElasticSearch.csproj", "{F6E297C6-A300-4EC2-B5EE-4BA6EEC81FEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoMoBot.ElasticSearch.Tests", "tests\MoMoBot.ElasticSearch.Tests\MoMoBot.ElasticSearch.Tests.csproj", "{824CD882-C258-4751-B23C-03B5AEF9F7C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC24B4D2-B486-463C-930F-77950AE2DDF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC24B4D2-B486-463C-930F-77950AE2DDF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC24B4D2-B486-463C-930F-77950AE2DDF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC24B4D2-B486-463C-930F-77950AE2DDF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE22588B-1232-43E0-BDA8-300C5A86326D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE22588B-1232-43E0-BDA8-300C5A86326D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE22588B-1232-43E0-BDA8-300C5A86326D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE22588B-1232-43E0-BDA8-300C5A86326D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28FDBEAA-AFDE-4384-A6A3-CDAD6F9889FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FDBEAA-AFDE-4384-A6A3-CDAD6F9889FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FDBEAA-AFDE-4384-A6A3-CDAD6F9889FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FDBEAA-AFDE-4384-A6A3-CDAD6F9889FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CF69BDC-A19C-4DAC-BECF-2ECBE8DB0004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF69BDC-A19C-4DAC-BECF-2ECBE8DB0004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF69BDC-A19C-4DAC-BECF-2ECBE8DB0004}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF69BDC-A19C-4DAC-BECF-2ECBE8DB0004}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8B8F53C7-29A3-4394-9217-2CE9C4E6C258}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8F53C7-29A3-4394-9217-2CE9C4E6C258}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B8F53C7-29A3-4394-9217-2CE9C4E6C258}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B8F53C7-29A3-4394-9217-2CE9C4E6C258}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{35C095F1-BAAC-437C-B608-C6CFD2E5BA8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35C095F1-BAAC-437C-B608-C6CFD2E5BA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35C095F1-BAAC-437C-B608-C6CFD2E5BA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35C095F1-BAAC-437C-B608-C6CFD2E5BA8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDD11526-972F-4540-AC0A-6F816F89EC8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDD11526-972F-4540-AC0A-6F816F89EC8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDD11526-972F-4540-AC0A-6F816F89EC8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDD11526-972F-4540-AC0A-6F816F89EC8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13D086A3-8FE0-49EC-AD65-12FAE1F29389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13D086A3-8FE0-49EC-AD65-12FAE1F29389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13D086A3-8FE0-49EC-AD65-12FAE1F29389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13D086A3-8FE0-49EC-AD65-12FAE1F29389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E297C6-A300-4EC2-B5EE-4BA6EEC81FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E297C6-A300-4EC2-B5EE-4BA6EEC81FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E297C6-A300-4EC2-B5EE-4BA6EEC81FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E297C6-A300-4EC2-B5EE-4BA6EEC81FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{824CD882-C258-4751-B23C-03B5AEF9F7C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824CD882-C258-4751-B23C-03B5AEF9F7C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824CD882-C258-4751-B23C-03B5AEF9F7C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824CD882-C258-4751-B23C-03B5AEF9F7C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC24B4D2-B486-463C-930F-77950AE2DDF2} = {7FDB1585-F133-4287-80F8-DB4682357236}
+		{FE22588B-1232-43E0-BDA8-300C5A86326D} = {BC12265C-785B-4741-B131-16F9E2391054}
+		{28FDBEAA-AFDE-4384-A6A3-CDAD6F9889FB} = {BC12265C-785B-4741-B131-16F9E2391054}
+		{0CF69BDC-A19C-4DAC-BECF-2ECBE8DB0004} = {07719E6F-E9C1-429B-9A46-74F2ED087A2F}
+		{8B8F53C7-29A3-4394-9217-2CE9C4E6C258} = {07719E6F-E9C1-429B-9A46-74F2ED087A2F}
+		{35C095F1-BAAC-437C-B608-C6CFD2E5BA8F} = {BC12265C-785B-4741-B131-16F9E2391054}
+		{BDD11526-972F-4540-AC0A-6F816F89EC8A} = {2DB63A69-97A3-4364-A872-A523BA71E83E}
+		{13D086A3-8FE0-49EC-AD65-12FAE1F29389} = {2DB63A69-97A3-4364-A872-A523BA71E83E}
+		{F6E297C6-A300-4EC2-B5EE-4BA6EEC81FEE} = {F61AD43D-8ECA-443D-810B-2C6B19E09299}
+		{824CD882-C258-4751-B23C-03B5AEF9F7C1} = {F61AD43D-8ECA-443D-810B-2C6B19E09299}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D35F6598-E7E5-4356-8131-FC64C26B7D8A}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://13.76.198.75/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\MoMoBot.Api\\MoMoBot.Api.csproj
+		SccProjectTopLevelParentUniqueName1 = MoMoBot.sln
+		SccProjectName1 = src/MoMoBot.Api
+		SccLocalPath1 = src\\MoMoBot.Api
+		SccWebProject2 = true
+		SccProjectUniqueName2 = src\\MoMoBot.Portal
+		SccProjectTopLevelParentUniqueName2 = MoMoBot.sln
+		SccProjectName2 = src/MoMoBot.Portal
+		SccLocalPath2 = src\\MoMoBot.Portal
+		SccProjectEnlistmentChoice2 = 2
+		SccProjectUniqueName3 = src\\MoMoBot.Service\\MoMoBot.Service.csproj
+		SccProjectTopLevelParentUniqueName3 = MoMoBot.sln
+		SccProjectName3 = src/MoMoBot.Service
+		SccLocalPath3 = src\\MoMoBot.Service
+		SccProjectUniqueName4 = src\\MoMoBot.Infrastructure\\MoMoBot.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName4 = MoMoBot.sln
+		SccProjectName4 = src/MoMoBot.Infrastructure
+		SccLocalPath4 = src\\MoMoBot.Infrastructure
+		SccWebProject5 = true
+		SccProjectUniqueName5 = src\\MoMoBot.Client
+		SccProjectTopLevelParentUniqueName5 = MoMoBot.sln
+		SccProjectName5 = src/MoMoBot.Client
+		SccLocalPath5 = src\\MoMoBot.Client
+		SccProjectEnlistmentChoice5 = 2
+		SccProjectUniqueName6 = src\\MoMoBot.Core\\MoMoBot.Core.csproj
+		SccProjectTopLevelParentUniqueName6 = MoMoBot.sln
+		SccProjectName6 = src/MoMoBot.Core
+		SccLocalPath6 = src\\MoMoBot.Core
+		SccProjectUniqueName7 = src\\MoMoBot.ML\\MoMoBot.ML.csproj
+		SccProjectTopLevelParentUniqueName7 = MoMoBot.sln
+		SccProjectName7 = src/MoMoBot.ML
+		SccLocalPath7 = src\\MoMoBot.ML
+		SccProjectUniqueName8 = tests\\MoMoBot.ML.Tests\\MoMoBot.ML.Tests.csproj
+		SccProjectTopLevelParentUniqueName8 = MoMoBot.sln
+		SccProjectName8 = tests/MoMoBot.ML.Tests
+		SccLocalPath8 = tests\\MoMoBot.ML.Tests
+		SccProjectUniqueName9 = src\\MoMoBot.ElasticSearch\\MoMoBot.ElasticSearch.csproj
+		SccProjectTopLevelParentUniqueName9 = MoMoBot.sln
+		SccProjectName9 = src/MoMoBot.ElasticSearch
+		SccLocalPath9 = src\\MoMoBot.ElasticSearch
+		SccProjectUniqueName10 = tests\\MoMoBot.ElasticSearch.Tests\\MoMoBot.ElasticSearch.Tests.csproj
+		SccProjectTopLevelParentUniqueName10 = MoMoBot.sln
+		SccProjectName10 = tests/MoMoBot.ElasticSearch.Tests
+		SccLocalPath10 = tests\\MoMoBot.ElasticSearch.Tests
+	EndGlobalSection
+EndGlobal

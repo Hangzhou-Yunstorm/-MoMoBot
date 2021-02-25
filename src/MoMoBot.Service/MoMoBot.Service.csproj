@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetCore.NPOI" Version="1.2.1" />
+    <PackageReference Include="EasyCaching.Core" Version="0.5.4.1" />
+    <PackageReference Include="EasyCaching.Redis" Version="0.5.4.1" />
+    <PackageReference Include="Microsoft.Azure.CognitiveServices.Language.LUIS.Authoring" Version="3.0.0" />
+    <PackageReference Include="Microsoft.Azure.CognitiveServices.Language.LUIS.Runtime" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MoMoBot.Core\MoMoBot.Core.csproj" />
+    <ProjectReference Include="..\MoMoBot.Infrastructure\MoMoBot.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

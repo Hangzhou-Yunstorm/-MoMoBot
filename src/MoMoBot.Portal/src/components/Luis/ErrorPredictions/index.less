@@ -1,0 +1,119 @@
+.container {
+    min-height: 740px;
+
+    .left {
+        display           : grid;
+        grid-template-rows: 230px auto;
+        min-height        : 740px;
+
+        .intents {
+            height     : 100%;
+            border     : 1px solid #d9d9d9;
+            border-top : 0px;
+            border-left: 0px;
+            overflow: hidden;
+            transition: all ease .3s;
+
+            .list {
+                .item {
+                    padding      : 6px;
+                    cursor       : pointer;
+                    margin-bottom: 2px;
+                }
+
+                .item:hover,
+                .item.active {
+                    background: @primary-color;
+                    color     : #ffffff;
+                }
+            }
+        }
+
+        .intents:hover{
+            overflow-y : auto;
+        }
+
+        // .intents::-webkit-scrollbar {
+        //     //display: none;
+        // }
+
+        .suggestions {
+            height           : 100%;
+            border-right     : 1px solid #d9d9d9;
+            padding-right    : 15px;
+            padding-top      : 15px;
+            // padding-bottom: 10px;
+
+            .title {
+                font-size     : 15px;
+                padding-bottom: 10px;
+            }
+
+            .suggestion {
+                padding      : 8px;
+                background   : #d9d9d9;
+                margin-bottom: 15px;
+                border-radius: 3px;
+            }
+        }
+    }
+
+
+    .analysis {
+        padding: 0px 20px;
+
+        .header {
+
+            .intent {
+                font-size  : 24px;
+                font-weight: bold;
+                color      : #000000;
+
+                span {
+                    margin-left: 10px;
+                    font-size  : 15px;
+                    font-weight: normal;
+                }
+            }
+        }
+
+        .accuracy {
+            width: 450px;
+
+        }
+
+        .detail {
+            padding-left: 45px;
+
+            .item {
+                margin-bottom: 15px;
+
+                h3 {
+                    font-size: 15px;
+                }
+
+                p {
+                    margin   : 0px;
+                    font-size: 14px;
+
+                    a {
+                        color: @primary-color;
+                    }
+                }
+
+                ul {
+                    margin-top: 8px;
+
+                    li {
+                        font-size    : 13px;
+                        margin-bottom: 3px;
+
+                        a {
+                            color: @primary-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

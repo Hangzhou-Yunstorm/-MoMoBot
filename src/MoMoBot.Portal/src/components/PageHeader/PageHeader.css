@@ -1,0 +1,16 @@
+.header {
+  padding: 15px;
+}
+.header .icon {
+  margin-right: 10px;
+}
+.header .title {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0px;
+}
+.header .extends {
+  text-align: right;
+}

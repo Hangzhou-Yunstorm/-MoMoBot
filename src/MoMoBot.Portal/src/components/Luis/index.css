@@ -1,0 +1,14 @@
+.suggestions {
+  font-size: 13px;
+}
+.suggestions .hreader {
+  font-size: 14px;
+}
+.suggestions .block {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #f8f8f8;
+}
+.suggestions .block .list li {
+  margin-bottom: 4px;
+}

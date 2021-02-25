@@ -1,0 +1,8 @@
+.container .intents {
+  height: 230px;
+  overflow-y: auto;
+}
+.container .intents .list .item {
+  padding: 6px;
+  cursor: pointer;
+}

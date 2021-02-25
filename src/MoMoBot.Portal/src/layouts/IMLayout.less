@@ -1,0 +1,19 @@
+.container{
+    display: grid;
+    grid-template-columns: 280px auto 320px;
+    grid-template-rows: 100%;
+    height: 100%;
+    margin: -15px;
+
+    .listcontainer,.messageContainer,.profile{
+        display: flex;
+        height: 100%;
+        overflow: hidden;
+    }
+
+    .profile{
+        border-left: 1px solid #ececec;
+        text-align: center;
+        overflow-y: auto;
+    }
+}

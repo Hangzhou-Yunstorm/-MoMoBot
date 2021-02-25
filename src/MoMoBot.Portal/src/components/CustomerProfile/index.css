@@ -1,0 +1,47 @@
+.customer {
+  width: 100%;
+  text-align: center;
+}
+.customer .content {
+  margin: 15px;
+}
+.customer .profile .header {
+  padding-bottom: 20px;
+}
+.customer .profile .header .name {
+  padding: 5px;
+}
+.customer .profile .header .from {
+  margin: 0px;
+}
+.customer .profile .details {
+  padding: 20px 0px;
+  border-color: #ececec;
+  border-width: 1px 0px;
+  border-style: solid;
+}
+.customer .profile .details .item td:nth-child(1) {
+  padding: 8px 5px;
+}
+.customer .profile .details .item td:nth-child(2) {
+  text-align: left;
+  color: #000000;
+}
+.customer .profile .details .item td:nth-child(2) .item_title {
+  color: #888888;
+  margin-right: 5px;
+}
+.customer .records {
+  text-align: left;
+}
+.customer .records .title {
+  font-size: 16px;
+  color: #888888;
+  padding-left: 15px;
+}
+.customer .records .list .recorditem {
+  display: grid;
+  grid-template-columns: auto 80px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}

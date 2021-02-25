@@ -1,0 +1,23 @@
+.container {
+  padding-bottom: 80px;
+}
+.container .title {
+  line-height: 45px;
+  font-size: 18px;
+}
+.container .card {
+  height: 420px;
+}
+.container .secTitle {
+  font-size: 16px;
+}
+.container .panel {
+  padding-top: 15px;
+  min-height: 200px;
+  border-top: 1px solid #d9d9d9;
+}
+.tip {
+  font-size: 14px;
+  margin-left: 5px;
+  color: #929292;
+}

@@ -1,0 +1,93 @@
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.container .menus {
+  height: 100%;
+  width: 56px;
+  background: #EBEBEB;
+}
+.container .menus .lowLevelmenus {
+  display: none;
+  text-align: left;
+  padding: 15px 10px;
+}
+.container .menus .lowLevelmenus .header {
+  margin-bottom: 15px;
+}
+.container .menus .lowLevelmenus .header .title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.container .menus .lowLevelmenus .menuitem {
+  padding: 5px;
+  margin: 3px 0px;
+  text-align: left;
+  font-size: 14px;
+}
+.container .menus .lowLevelmenus .menuitem .menulink {
+  color: #000000;
+  display: block;
+}
+.container .menus .lowLevelmenus .menuitem .menulink:hover {
+  color: #4EA9EC;
+}
+.container .menus .lowLevelmenus .menuitem.active .menulink {
+  color: #4EA9EC;
+}
+.container .menus .menuitem {
+  padding: 15px 0px;
+  text-align: center;
+  color: #000000;
+  cursor: pointer;
+}
+.container .menus .menuitem .link {
+  color: #000000;
+  display: block;
+  margin: -15px 0px;
+  padding: 15px;
+}
+.container .menus .menuitem .icon {
+  font-size: 1.1rem;
+}
+.container .menus .menuitem .logo {
+  width: 40px;
+  height: 40px;
+}
+.container .menus .menuitem.active {
+  color: #4EA9EC;
+  background: #F6F6F6;
+}
+.container .menus .menuitem.active .link {
+  color: #4EA9EC;
+}
+.container .menus .menuitem.active .lowLevelmenus {
+  display: block;
+  position: absolute;
+  left: 56px;
+  top: 0px;
+  height: 100%;
+  width: 230px;
+  background: #F6F6F6;
+  cursor: default;
+}
+.container .usermenus {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 56px;
+  height: auto;
+}
+.container .usermenus .avatar {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
