@@ -7,8 +7,6 @@ export default {
     primaryColor,
     dangerColor,
     luisColors: [dangerColor, warningColor, primaryColor],
-    siteKey: '6LetaZ4UAAAAAFO3y2qkLqAqxN3qbUePsFQpA_UI',
-    serverUrl:  process.env.NODE_ENV === 'development' ?
-        'http://10.0.1.46:4567' :
-        'https://momoapi.yunstorm.com:4431'
+    siteKey: '',
+    serverUrl:  ''
 }
